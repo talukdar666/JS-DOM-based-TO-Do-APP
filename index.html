@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-do list using vanilla JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="title"><font color="blue">JavaScript</font> <font color="red">DOM</font> based</h1>
+
+    <section class="container">
+
+        <h1 id="header" class="header">To-Do App</h1>
+
+        <form class="new-task-container box">
+            <label for="new-task">Add New Task</label>
+            <input type="text" id="new-task">
+            <input type="submit" id="addTask" value="Add task">
+        </form>
+
+        <div class="todo-list box">
+            <h2>Incomplete Tasks</h2>
+            <ul id="items">
+                <li class="item">
+                    <input type="checkbox"><label>Task Name</label>
+                </li>
+                <li class="item">
+                    <input type="checkbox"><label>Task Name</label>
+                </li>
+                <li class="item">
+                    <input type="checkbox"><label>Task Name</label>
+                </li>
+            </ul>
+        </div>
+
+        <div class="complete-list box">
+            <h2>Completed Tasks</h2>
+            <ul>
+                <li class="item">Task Name <button class="delete">Delete</button></li>
+            </ul>
+        </div>
+    </section>
+
+    <h3>Abdullah Omar</h3>
+
+    <script src="script.js"></script>
+</body>
+</html>
